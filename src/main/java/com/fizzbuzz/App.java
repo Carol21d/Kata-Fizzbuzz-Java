@@ -8,6 +8,11 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+       FizzBuzz checkResult = new FizzBuzz();
+       for (int index = 0; index < 101; index++) {
+        String result = checkResult.have_Fizz(index);
+        System.out.println(result);
+        
+       }
     }
 }
